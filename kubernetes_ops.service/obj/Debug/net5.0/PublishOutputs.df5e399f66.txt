@@ -1,0 +1,7 @@
+C:\Dev\Sandbox\kubernetes_ops\kubernetes_ops.service\bin\Debug\net5.0\publish\kubernetes_ops.service.exe
+C:\Dev\Sandbox\kubernetes_ops\kubernetes_ops.service\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Dev\Sandbox\kubernetes_ops\kubernetes_ops.service\bin\Debug\net5.0\publish\appsettings.json
+C:\Dev\Sandbox\kubernetes_ops\kubernetes_ops.service\bin\Debug\net5.0\publish\kubernetes_ops.service.dll
+C:\Dev\Sandbox\kubernetes_ops\kubernetes_ops.service\bin\Debug\net5.0\publish\kubernetes_ops.service.deps.json
+C:\Dev\Sandbox\kubernetes_ops\kubernetes_ops.service\bin\Debug\net5.0\publish\kubernetes_ops.service.runtimeconfig.json
+C:\Dev\Sandbox\kubernetes_ops\kubernetes_ops.service\bin\Debug\net5.0\publish\kubernetes_ops.service.pdb

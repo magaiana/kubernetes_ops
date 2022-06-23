@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{17574C15-C2BB-4959-85CF-81713E7C834B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kubernetes_ops.api", "kubernetes_ops.api\kubernetes_ops.api.csproj", "{DCB3A4D3-257E-4827-982F-E2ECC3E7A0D3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kubernetes_ops.service", "kubernetes_ops.service\kubernetes_ops.service.csproj", "{AD5288DC-2A8F-4F8C-884C-94DAC9F59297}"
@@ -26,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{DCB3A4D3-257E-4827-982F-E2ECC3E7A0D3} = {17574C15-C2BB-4959-85CF-81713E7C834B}
-		{AD5288DC-2A8F-4F8C-884C-94DAC9F59297} = {17574C15-C2BB-4959-85CF-81713E7C834B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1054013-EA25-4BD0-9EC7-0A263D64630C}

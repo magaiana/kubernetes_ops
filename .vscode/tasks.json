@@ -10,12 +10,12 @@
 			"dockerBuild": {
 				"tag": "kubernetesops:dev",
 				"target": "base",
-				"dockerfile": "${workspaceFolder}/kubernetes_ops.api/Dockerfile",
+				"dockerfile": "${workspaceFolder}/kubernetes_ops.service/Dockerfile",
 				"context": "${workspaceFolder}",
 				"pull": true
 			},
 			"netCore": {
-				"appProject": "${workspaceFolder}/kubernetes_ops.api/kubernetes_ops.api.csproj"
+				"appProject": "${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj"
 			}
 		},
 		{
@@ -26,12 +26,12 @@
 			],
 			"dockerBuild": {
 				"tag": "kubernetesops:latest",
-				"dockerfile": "${workspaceFolder}/kubernetes_ops.api/Dockerfile",
+				"dockerfile": "${workspaceFolder}/kubernetes_ops.service/Dockerfile",
 				"context": "${workspaceFolder}",
 				"pull": true
 			},
 			"netCore": {
-				"appProject": "${workspaceFolder}/kubernetes_ops.api/kubernetes_ops.api.csproj"
+				"appProject": "${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj"
 			}
 		},
 		{
@@ -42,7 +42,7 @@
 			],
 			"dockerRun": {},
 			"netCore": {
-				"appProject": "${workspaceFolder}/kubernetes_ops.api/kubernetes_ops.api.csproj",
+				"appProject": "${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj",
 				"enableDebugging": true
 			}
 		},
@@ -54,8 +54,44 @@
 			],
 			"dockerRun": {},
 			"netCore": {
-				"appProject": "${workspaceFolder}/kubernetes_ops.api/kubernetes_ops.api.csproj"
+				"appProject": "${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj"
 			}
+		},
+		{
+			"label": "build",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"build",
+				"${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "publish",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"publish",
+				"${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "watch",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"watch",
+				"run",
+				"--project",
+				"${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj"
+			],
+			"problemMatcher": "$msCompile"
 		}
 	]
 }

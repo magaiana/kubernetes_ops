@@ -6,8 +6,33 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "netCore": {
-                "appProject": "${workspaceFolder}/kubernetes_ops.api/kubernetes_ops.api.csproj"
+                "appProject": "${workspaceFolder}/kubernetes_ops.service/kubernetes_ops.service.csproj"
             }
+        },
+        {
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/kubernetes_ops.service/bin/Debug/net5.0/kubernetes_ops.service.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/kubernetes_ops.service",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
         }
     ]
 }

@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pUgFR14dvaKqNEtAED8rnlLS83LpsnRzW5eODmZ+5ygIB5EFJ4lA03PkvVpFJqg5GJJIKlk173hzQwlX26h9Kw==",
+  "dgSpecHash": "pUlpSSnXYKSkwnXHG8stEfa1lJ6s62uGXpeCVy85X32o+dDY5v32YVj0EoiNnUt7V1fxmjAHxcKuus1L3/cA7Q==",
   "success": true,
   "projectFilePath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.service\\kubernetes_ops.service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
-    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
   ],
   "logs": []
 }

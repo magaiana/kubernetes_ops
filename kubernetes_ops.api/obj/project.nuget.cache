@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wsu+PyxsT3F/dQIMUr37pjC/VXekm0dGNgF1PIEgLLl4fvcGJculNE6R+vPs2g1r8CydXay2w7UWBnUZ2+9YjA==",
+  "dgSpecHash": "xI30vM7gQ71eg8N0pYUgyGz4kMYfrViyzKbRGBVMv6QiClJJH9jsHvY8tl13BsMOJgm7aE26UPDoW10oj7qHtw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,7 @@
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
-    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
-    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512"
   ],
   "logs": []
 }
