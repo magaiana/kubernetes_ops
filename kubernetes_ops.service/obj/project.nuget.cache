@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yxUuL4nymJ5dp9BwUj0fAr5CWtJw/wMcxg9flzJzqRwcTr3TzUU+ZnvMZkPjVq7I5iLCJ6yRV4nZNuwLYVBZfA==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Sandbox\\kubernetes_ops.service\\kubernetes_ops.service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

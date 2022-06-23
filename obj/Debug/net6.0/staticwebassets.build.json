@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Nuvz4+tX8S0SFvbXDGxUNRuUferyENjfbLgCRBlHilM=",
+  "Source": "kubernetes_ops",
+  "BasePath": "_content/kubernetes_ops",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

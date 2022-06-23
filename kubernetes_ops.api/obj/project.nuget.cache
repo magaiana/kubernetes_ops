@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RnSOJp8+LPIcmty3AiZL3HDdTHATZcVImOzeqdkB/iP2RDoZBkOGhLmiPWPvhToEqhV5sg1Uih/1CtzbhN/YcA==",
+  "dgSpecHash": "eODc4a5k0j/kGSMlHeLxngtkLUbXDmmiKW+is6pIREy95X335fTc6GR7khn8ocYX52OJOnpN4qcNILHQHhOeuA==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.csproj",
+  "projectFilePath": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
-    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512"
+    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
+    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

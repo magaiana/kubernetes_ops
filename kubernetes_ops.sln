@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kubernetes_ops.service", "..\kubernetes_ops.service\kubernetes_ops.service.csproj", "{A27AD478-6CEA-413C-AE8C-C26016050F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kubernetes_ops.api", "..\kubernetes_ops.api\kubernetes_ops.api.csproj", "{E3DE50F3-186D-41DC-A9E8-A81DC416589F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A27AD478-6CEA-413C-AE8C-C26016050F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27AD478-6CEA-413C-AE8C-C26016050F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27AD478-6CEA-413C-AE8C-C26016050F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27AD478-6CEA-413C-AE8C-C26016050F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DE50F3-186D-41DC-A9E8-A81DC416589F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DE50F3-186D-41DC-A9E8-A81DC416589F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DE50F3-186D-41DC-A9E8-A81DC416589F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DE50F3-186D-41DC-A9E8-A81DC416589F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1054013-EA25-4BD0-9EC7-0A263D64630C}
+	EndGlobalSection
+EndGlobal

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.csproj": {}
+    "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.csproj": {
+    "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.csproj",
-        "projectName": "kubernetes_ops",
-        "projectPath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.csproj",
+        "projectUniqueName": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
+        "projectName": "kubernetes_ops.api",
+        "projectPath": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
         "packagesPath": "C:\\Users\\Vmagayiyana\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Sandbox\\kubernetes_ops\\obj\\",
+        "outputPath": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vmagayiyana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://ragingriver.pkgs.visualstudio.com/_packaging/Horus/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -38,8 +38,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -56,6 +56,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
