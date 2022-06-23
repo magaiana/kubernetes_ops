@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj": {}
+    "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.api\\kubernetes_ops.api.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj": {
+    "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.api\\kubernetes_ops.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
+        "projectUniqueName": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
         "projectName": "kubernetes_ops.api",
-        "projectPath": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
+        "projectPath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
         "packagesPath": "C:\\Users\\Vmagayiyana\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\obj\\",
+        "outputPath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vmagayiyana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.1, )"

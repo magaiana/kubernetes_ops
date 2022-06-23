@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Sandbox\\kubernetes_ops.service\\kubernetes_ops.service.csproj": {}
+    "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.service\\kubernetes_ops.service.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Sandbox\\kubernetes_ops.service\\kubernetes_ops.service.csproj": {
+    "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.service\\kubernetes_ops.service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Sandbox\\kubernetes_ops.service\\kubernetes_ops.service.csproj",
+        "projectUniqueName": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.service\\kubernetes_ops.service.csproj",
         "projectName": "kubernetes_ops.service",
-        "projectPath": "C:\\Dev\\Sandbox\\kubernetes_ops.service\\kubernetes_ops.service.csproj",
+        "projectPath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.service\\kubernetes_ops.service.csproj",
         "packagesPath": "C:\\Users\\Vmagayiyana\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Sandbox\\kubernetes_ops.service\\obj\\",
+        "outputPath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vmagayiyana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eODc4a5k0j/kGSMlHeLxngtkLUbXDmmiKW+is6pIREy95X335fTc6GR7khn8ocYX52OJOnpN4qcNILHQHhOeuA==",
+  "dgSpecHash": "Wsu+PyxsT3F/dQIMUr37pjC/VXekm0dGNgF1PIEgLLl4fvcGJculNE6R+vPs2g1r8CydXay2w7UWBnUZ2+9YjA==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Sandbox\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
+  "projectFilePath": "C:\\Dev\\Sandbox\\kubernetes_ops\\kubernetes_ops.api\\kubernetes_ops.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Vmagayiyana\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
     "C:\\Users\\Vmagayiyana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
